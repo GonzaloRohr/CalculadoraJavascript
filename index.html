@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="hojaDeEstilos.css">
+</head>
+<body>
+
+<div class="contenedor">
+	<div class="pantalla">
+		<div id="resultado"></div>
+	</div>
+	<div class="teclas">
+		<div class="numeros">
+			<div>
+			<button id="n1" onclick="n1()">1</button>
+			<button id="n2" onclick="n2()">2</button>
+			<button id="n3" onclick="n3()">3</button>
+			</div>
+			<div>
+			<button id="n4" onclick="n4()">4</button>
+			<button id="n5" onclick="n5()">5</button>
+			<button id="n6" onclick="n6()">6</button>
+			</div>
+			<div>
+			<button id="n7" onclick="n7()">7</button>
+			<button id="n8" onclick="n8()">8</button>
+			<button id="n9" onclick="n9()">9</button>
+			</div>
+			<div>
+			<button id="n0" onclick="n0()">0</button>
+			</div>
+		</div>
+		<div class="ope">
+			<button id="s" onclick="op1()">+</button>
+			<button id="r" onclick="op2()">-</button>
+			<button id="d" onclick="op3()">%</button>
+			<button id="m" onclick="op4()">X</button>
+
+			<div class="sr">
+				<button id="i" onclick="mostrarResultado()">=</button>
+			</div>
+		</div>
+		
+	</div>
+</div>
+
+<script src="hojaScript.js"></script>
+
+</body>
+</html>
